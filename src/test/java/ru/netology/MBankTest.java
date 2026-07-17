@@ -17,3 +17,4 @@ public class MBankTest {
                 statusCode(200).body(matchesJsonSchemaInClasspath("accounts.schema.json"));
     }
 }
+
