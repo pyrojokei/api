@@ -8,7 +8,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 public class MBankTest {
 
     @Test
-    void mustComplyWithJSONSchema() { // Добавили () и исправили camelCase
+    void mustComplyWithJSONSchema() {
 
         given().baseUri("http://localhost:9999/api/v1")
                 .when()
